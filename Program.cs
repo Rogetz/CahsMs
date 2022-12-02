@@ -1,4 +1,3 @@
-using RealCashMs.Data;
 using RealCashMs.Models;
 // for the UseSqlServer method to work.
 using Microsoft.EntityFrameworkCore;
@@ -7,8 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
-builder.Services.AddDbContext<CashMsDbContext>(options => options.UseSqlServer(builder.Configuration["Data:RealCashMs:ConnectionString"]));
-builder.Services.AddTransient<IDatabaseInterface,DatabaseImplementation>();
 builder.Services.AddTransient<Customer>();
 // for the shared cart data.
 builder.Services.AddSingleton<Cart>();

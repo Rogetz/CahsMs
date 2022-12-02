@@ -20,7 +20,7 @@ window.addEventListener("load", function(){
     /*added for the togglemenu header*/
     $(".menu-titles").click(function(){
         $(".menu-titles").children(".drop-down-group").removeClass("active");
-        $(this).children(".drop-down-group").addClass("active");
+        $(this).children(".drop-down-group").toggleClass("active");
         /*not tested the rotate feature, taste it later though.*/
         $(this).next(".fa-circle-chevron-down").css("rotate : -90deg");
     });

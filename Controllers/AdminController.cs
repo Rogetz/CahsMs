@@ -2,7 +2,7 @@ using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
 using RealCashMs.Models;
 // remove this namespace later its risky to use the database namespace directly.
-using RealCashMs.Data;
+
 
 namespace RealCashMs.Controllers;
 
@@ -12,11 +12,8 @@ public class AdminController : Controller{
     private IDatabaseInterface DbInterface;
     private Customer customerInstance{get;set;}
 
-    private CashMsDbContext cashDbContext{get;}
-
-    public AdminController(ILogger<AdminController> logger,IDatabaseInterface databaseI, Customer cstmInstance,CashMsDbContext cmsDb)
+    public AdminController(ILogger<AdminController> logger,IDatabaseInterface databaseI, Customer cstmInstance)
     {
-        cashDbContext = cmsDb;
         customerInstance = cstmInstance;
         DbInterface = databaseI;
         _logger = logger;

@@ -68,7 +68,7 @@
 body{
     padding: 0;
     margin: 0;
-    width: 98%;
+    width: 100%;
     overflow-x: hidden;
     min-height: 100vh;
     background-image: linear-gradient(to top,var(--color-light-blue),var(--color-light-purple));
