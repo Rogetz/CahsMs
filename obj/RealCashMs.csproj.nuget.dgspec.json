@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\RealCashMs\\RealCashMs.csproj": {}
+    "D:\\DeployWebApps\\CashMs\\RealCashMs.csproj": {}
   },
   "projects": {
-    "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\RealCashMs\\RealCashMs.csproj": {
+    "D:\\DeployWebApps\\CashMs\\RealCashMs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\RealCashMs\\RealCashMs.csproj",
+        "projectUniqueName": "D:\\DeployWebApps\\CashMs\\RealCashMs.csproj",
         "projectName": "RealCashMs",
-        "projectPath": "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\RealCashMs\\RealCashMs.csproj",
+        "projectPath": "D:\\DeployWebApps\\CashMs\\RealCashMs.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\RealCashMs\\obj\\",
+        "outputPath": "D:\\DeployWebApps\\CashMs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\MVCPROJECTS\\TESTSUNCOUNTED\\RealCashMs\\NuGet.Config",
+          "D:\\DeployWebApps\\CashMs\\NuGet.Config",
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
@@ -56,6 +56,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.0-rc.2.22472.11, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.0-preview5, )"
             }
           },
           "imports": [
