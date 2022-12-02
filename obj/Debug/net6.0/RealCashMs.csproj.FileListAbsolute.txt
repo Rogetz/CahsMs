@@ -208,3 +208,11 @@ D:\DeployWebApps\CashMs\obj\Debug\net6.0\refint\RealCashMs.dll
 D:\DeployWebApps\CashMs\obj\Debug\net6.0\RealCashMs.pdb
 D:\DeployWebApps\CashMs\obj\Debug\net6.0\RealCashMs.genruntimeconfig.cache
 D:\DeployWebApps\CashMs\obj\Debug\net6.0\ref\RealCashMs.dll
+D:\DeployWebApps\CashMs\bin\Debug\net6.0\Google.Protobuf.dll
+D:\DeployWebApps\CashMs\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+D:\DeployWebApps\CashMs\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+D:\DeployWebApps\CashMs\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+D:\DeployWebApps\CashMs\bin\Debug\net6.0\MySql.Data.dll
+D:\DeployWebApps\CashMs\bin\Debug\net6.0\ZstdNet.dll
+D:\DeployWebApps\CashMs\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+D:\DeployWebApps\CashMs\bin\Debug\net6.0\BouncyCastle.Crypto.dll

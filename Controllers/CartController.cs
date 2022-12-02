@@ -28,7 +28,7 @@ public class CartController : Controller
             return cartToUse.imgObjects[id];
         }
         else{
-            return null;
+            return new ImageClass();
         }
     }
     public JsonResult post([FromBody]ImageClass postedImageClass){
